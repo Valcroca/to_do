@@ -1,0 +1,16 @@
+<h1>New List</h1>
+<%= form_for @list do |f| %>
+  <%= f.label :title %>:
+  <%= f.text_field :title %>
+  
+  <%= f.label :task %>
+  <%= f.text_field :task %>
+
+  <%= f.label :deadline %>
+  <%= f.text_field :deadline %>
+
+  <%= f.label :status %>
+  <%= f.text_field :status %>
+
+  <%= f.submit %>
+<% end %>

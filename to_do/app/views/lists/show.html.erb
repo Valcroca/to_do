@@ -5,3 +5,4 @@
 <h3><%= @list.status %></h3>
 <%= link_to 'Back', lists_path %>
 <%= link_to 'Edit list', edit_list_path(@list) %>
+<%= link_to 'Destroy list', list_path(@list), method: :delete %>
